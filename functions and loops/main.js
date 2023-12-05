@@ -21,3 +21,21 @@ function displayNumbers(start, end) {
 let startNumber = 0;
 let endNumber = 10;
 displayNumbers(startNumber, endNumber);
+
+//Create a function that sum the values in-between two numbers. eg calcFunc(1,3) returns 6. ie. 1+2+3.
+
+function calculateSum(start, end) {
+    if (start > end) {
+        [start, end] = [end, start];
+    }
+
+    let sum = 0;
+
+    for (let i = start; i <= end; i++) {
+        sum += i;
+    }
+
+    return sum;
+}
+
+console.log(calculateSum(1, 9));
