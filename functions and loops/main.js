@@ -11,3 +11,13 @@ checkEvenNumber(11);
 
 
 //create a function that prints to the console n1 to n2 where n1 is the first parameter and n2 is the second parameter
+
+function displayNumbers(start, end) {
+    for (let i = start; i < end; i++) {
+        console.log(i);
+    }
+}
+
+let startNumber = 0;
+let endNumber = 10;
+displayNumbers(startNumber, endNumber);
