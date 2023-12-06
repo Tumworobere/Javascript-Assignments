@@ -1,3 +1,5 @@
+//Write a function that calculates the factorial of a given number.
+//DO NOT USE PROMPT, I WANT ONLY 1 CONSOLE.LOG, YOUR FUNCTION MUST BE REUSEABLE, AND MUST RETURN A VALUE
 function calculateFactorial(number) {
     // Check for negative numbers
     if (number < 0) {
