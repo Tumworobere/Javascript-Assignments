@@ -18,6 +18,6 @@ function calculateFactorial(number) {
 }
 
 // Example usage
-const inputNumber = 10;
+const inputNumber = 6;
 const factorialResult = calculateFactorial(inputNumber);
 console.log(`The factorial of ${inputNumber} is: ${factorialResult}`);
