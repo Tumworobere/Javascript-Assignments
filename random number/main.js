@@ -1,3 +1,6 @@
+//Random Number Guessing Game:
+//Develop a program that generates a random number between 1 and 100. Allow the user to guess the number and provide feedback on whether the guess is too high, too low, or correct.Do not use prompt.
+
 // Function to generate a random number between a given range
 function getRandomNumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
