@@ -1,10 +1,14 @@
+// Function to generate a random number between a given range
 function getRandomNumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
   }
 
+  // Generate a random number between 1 and 100
   let randomNumber = getRandomNumber(1, 100);
 
+  // Function to check the user's guess against the random number
   function checkGuess(userGuess) {
+  // Check if the user's guess is a valid number between 1 and 100
     if (isNaN(userGuess) || userGuess < 1 || userGuess > 100) {
       return 'Please enter a valid number between 1 and 100.';
     } else if (userGuess < randomNumber) {
